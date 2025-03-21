@@ -37,3 +37,4 @@ jobs:
     - name: Force new deployment
       run: |
         aws ecs update-service --cluster hello-world-cluster --service hello-world-service --force-new-deployment
+        
